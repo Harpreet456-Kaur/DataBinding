@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         binding.intValue = value
         binding.tvNum.text=binding.intValue.toString()
     }
-    fun ResetClick() {
+    fun onResetClick() {
         value = 0
         binding.intValue=0
         binding.tvNum.text=binding.intValue.toString()
