@@ -19,16 +19,14 @@ class MainActivity : AppCompatActivity() {
     fun onPlusClick(){
         value++
         binding.intValue = value
-        binding.tvNum.text=binding.intValue.toString()
     }
     fun onMinusClick() {
         value--
         binding.intValue = value
-        binding.tvNum.text=binding.intValue.toString()
+
     }
     fun onResetClick() {
         value = 0
         binding.intValue=0
-        binding.tvNum.text=binding.intValue.toString()
     }
 }
